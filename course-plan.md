@@ -51,7 +51,7 @@
 
 9. Synthetic Data for Machine Learning: How to generate training data
 
-10. Energy-Based Models for Generation
+~10. Energy-Based Models for Generation~
 
 11. Generative AI for Game Development: Procedural content generation
 
