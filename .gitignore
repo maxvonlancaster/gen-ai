@@ -1,2 +1,4 @@
 .env
 /generative-ai/data/
+.faiss
+.pkl
