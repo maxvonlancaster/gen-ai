@@ -1,39 +1,35 @@
-# RAG System creation
+# Media generation via DL Models
 
-Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources. With RAG, LLMs first refer to a specified set of documents, then respond to user queries. These documents supplement information from the LLM's pre-existing training data. This allows LLMs to use domain-specific and/or updated information that is not available in the training data. For example, this helps LLM-based chatbots access internal company data or generate responses based on authoritative sources.
+Dear students! The task of this laboratory assignment is to create a DL model, that would generate custom data. 
 
-## Choose topic
+Do not use available models via api (if you want, you can choose lab assignment 0 for that instead of this assignment).
 
-Choose the topic for your RAG. Some of the options (but not limited to these):
-- Documentation for you open-source project
-- Information about your hometown
-- Helper for students
-- Or anything you like
+## Choose Model
 
-## Retrieve an Open AI key
+- *Variational Auto Encoder*
+- *Generative Adversarial Netowk*
+- *Diffusion Model*
+- *Transformer*
 
-Go to https://platform.openai.com/settings/organization/api-keys and generate a new api key for personal usage.
+Examples of code for gen ai models, that you can use: 
 
-Other option: ask your teacher for key. In that case, use wisely, as running it out of limit might influence other students work.
+- https://github.com/maxvonlancaster/gen-ai/blob/main/src/104-dl-generative-models.ipynb
+- https://github.com/maxvonlancaster/gen-ai/blob/main/src/105-gen-ai-in-ds.ipynb
 
-You will also need langchain key. It is free here: http://docs.langchain.com/langsmith/create-account-api-key
+## Choose Topic 
 
-## Gather data for you system
+- **Images**: choose topic for images, images dataset (CIFAR-10), that would be generated.
 
-Code sample here: https://github.com/maxvonlancaster/gen-ai/blob/main/new/104-rag-systems.ipynb
+- **Voice**: custom voice generator.
 
-## Train the model
+- **Text**: choose topic of text data for generation. You may choose pretrained transformer.
 
-Code sample here: https://github.com/maxvonlancaster/gen-ai/blob/main/new/104-rag-systems.ipynb
+- **Data Science augmentation**: choose an imbalanced dataset (for example, from kaggle) and use gen-ai model to improve it for data science task.
 
-## Rag chunking
+## Present Code 
 
-Try rag memory chunking. More about it here: https://community.databricks.com/t5/technical-blog/the-ultimate-guide-to-chunking-strategies-for-rag-applications/ba-p/113089
+Codebase (python, preferably: jupiter notebook with explanations), lock file with requirements. 
 
-## Github and Moodle
+## Upload
 
-Push to github and submit link to codebase in moodle.
-
-## Additional: deploy
-
-Additional points: deploy your project as an backend api system, and create a simple ui for working with it.
+Upload to github, and save link to moodle.
